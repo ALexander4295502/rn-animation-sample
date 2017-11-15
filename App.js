@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import AnimatedTiming from './Components/AnimatedTiming';
+import AnimatedSpring from './Components/AnimatedSpring';
 
 export default class App extends Component<{}> {
 
@@ -14,7 +15,7 @@ export default class App extends Component<{}> {
       height: this.animatedValue
     };
     return (
-      <AnimatedTiming/>
+      <AnimatedSpring/>
     );
   }
 }
