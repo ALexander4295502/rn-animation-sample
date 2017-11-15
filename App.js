@@ -12,12 +12,13 @@ import AnimateColor from './Components/AnimateColor';
 import AnimateRotation from './Components/AnimateRotation';
 import AnimateSequence from './Components/AnimateSequence';
 import AnimatedStagger from './Components/AnimatedStagger';
+import AnimatedParallel from './Components/AnimatedParallel';
 
 export default class App extends Component<{}> {
 
   render() {
     return (
-      <AnimatedStagger/>
+      <AnimatedParallel/>
     );
   }
 }
