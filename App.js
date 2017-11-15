@@ -10,12 +10,13 @@ import AnimatedSpring from './Components/AnimatedSpring';
 import DraggableCard from './Components/DraggableCard';
 import AnimateColor from './Components/AnimateColor';
 import AnimateRotation from './Components/AnimateRotation';
+import AnimateSequence from './Components/AnimateSequence';
 
 export default class App extends Component<{}> {
 
   render() {
     return (
-      <AnimateRotation/>
+      <AnimateSequence/>
     );
   }
 }
