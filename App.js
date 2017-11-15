@@ -9,15 +9,13 @@ import AnimatedTiming from './Components/AnimatedTiming';
 import AnimatedSpring from './Components/AnimatedSpring';
 import DraggableCard from './Components/DraggableCard';
 import AnimateColor from './Components/AnimateColor';
+import AnimateRotation from './Components/AnimateRotation';
 
 export default class App extends Component<{}> {
 
   render() {
-    const animatedStyle = {
-      height: this.animatedValue
-    };
     return (
-      <AnimateColor/>
+      <AnimateRotation/>
     );
   }
 }
