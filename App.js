@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 import AnimatedTiming from './Components/AnimatedTiming';
 import AnimatedSpring from './Components/AnimatedSpring';
 import DraggableCard from './Components/DraggableCard';
+import AnimateColor from './Components/AnimateColor';
 
 export default class App extends Component<{}> {
 
@@ -16,7 +17,7 @@ export default class App extends Component<{}> {
       height: this.animatedValue
     };
     return (
-      <DraggableCard/>
+      <AnimateColor/>
     );
   }
 }
