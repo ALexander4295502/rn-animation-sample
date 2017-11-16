@@ -1,2 +1,2 @@
 # rn-animation-sample
-![Alt Text](https://gfycat.com/gifs/detail/FrankSpitefulCobra)
+![demo gif](https://thumbs.gfycat.com/CorruptWildAddax-size_restricted.gif)
