@@ -17,10 +17,11 @@ export default class AnimatedParallel extends Component {
     Animated.parallel([
       Animated.timing(this.animatedValue1, {
         toValue: 500,
-        duration: 300
+        duration: 800
       }).start(),
-      Animated.spring(this.animatedValue2, {
+      Animated.timing(this.animatedValue2, {
         toValue: 3,
+        duration: 800
       }).start(),
     ])
   }

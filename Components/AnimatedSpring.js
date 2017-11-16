@@ -46,7 +46,7 @@ export default class AnimatedSpring extends Component {
           </Animated.View>
         </TouchableWithoutFeedback>
       </View>
-    );rnc
+    );
   }
 }
 

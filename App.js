@@ -5,21 +5,26 @@
  */
 
 import React, { Component } from 'react';
-import AnimatedTiming from './Components/AnimatedTiming';
-import AnimatedSpring from './Components/AnimatedSpring';
-import DraggableCard from './Components/DraggableCard';
-import AnimateColor from './Components/AnimateColor';
-import AnimateRotation from './Components/AnimateRotation';
-import AnimateSequence from './Components/AnimateSequence';
-import AnimatedStagger from './Components/AnimatedStagger';
-import AnimatedParallel from './Components/AnimatedParallel';
-import FlipCardAnimation from './Components/FlipCardAnimation';
+import {
+  NavigatorIOS
+} from 'react-native';
+import MainMenu from "./Components/MainMenu";
+
 
 export default class App extends Component<{}> {
 
   render() {
     return (
-      <FlipCardAnimation/>
+      <NavigatorIOS
+        style={{
+          flex: 1
+        }}
+        initialRoute={{
+          title: 'Main Menu',
+          component: MainMenu
+        }}
+        navigationBarHidden={false}
+      />
     );
   }
 }
