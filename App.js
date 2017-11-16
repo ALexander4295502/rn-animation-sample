@@ -13,12 +13,13 @@ import AnimateRotation from './Components/AnimateRotation';
 import AnimateSequence from './Components/AnimateSequence';
 import AnimatedStagger from './Components/AnimatedStagger';
 import AnimatedParallel from './Components/AnimatedParallel';
+import FlipCardAnimation from './Components/FlipCardAnimation';
 
 export default class App extends Component<{}> {
 
   render() {
     return (
-      <AnimatedParallel/>
+      <FlipCardAnimation/>
     );
   }
 }
